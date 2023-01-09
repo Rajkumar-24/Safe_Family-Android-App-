@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.homians">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Homians">
+        <activity
+            android:name=".SearchShow"
+            android:exported="false" />
+        <activity
+            android:name=".BetaKitchen"
+            android:exported="false" />
+        <activity
+            android:name=".AlphaKitchen"
+            android:exported="false" />
+        <activity
+            android:name=".SearchBar"
+            android:exported="false" />
+        <activity
+            android:name=".Search_bar"
+            android:exported="false" />
+        <activity
+            android:name=".AddAddressActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".AddAddressActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KitchenActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".AddAddressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SubActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyAccount"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".catalogue_sceen"
+            android:exported="false"
+            android:label="@string/title_activity_catalogue_sceen"
+            android:theme="@style/Theme.Homians.NoActionBar" />
+        <activity
+            android:name=".fragment.catalogue_sceen"
+            android:exported="false"
+            android:label="@string/title_activity_catalogue_sceen"
+            android:theme="@style/Theme.Homians.NoActionBar" />
+        <activity
+            android:name=".HomeFragment"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity2"
+            android:exported="false"
+            android:theme="@style/Theme.Homians" />
+        <activity
+            android:name=".LoginActivity2"
+            android:exported="true"
+            android:theme="@style/Theme.Homians2" />
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_kyk0reXgR2qOvf" />
+        <meta-data
+            android:name="com.google.gms.wallet.api.enabled"
+            android:value="true" />
+    </application>
+
+</manifest>

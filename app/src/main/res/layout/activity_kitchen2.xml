@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KitchenActivity2"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:paddingVertical="20dp"
+        android:paddingHorizontal="15dp"
+        android:background="@color/white">
+
+
+        <RelativeLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="15dp"
+            tools:layout_editor_absoluteY="20dp">
+
+            <ImageView
+                android:id="@+id/profile_user_icon"
+                android:layout_width="106dp"
+                android:layout_height="111dp"
+                android:layout_marginHorizontal="0dp"
+                android:elevation="10dp"
+                android:src="@drawable/image1"
+                android:transitionName="userIconTransition"
+                app:civ_border_color="@color/white"
+
+                app:civ_border_width="2dp" />
+
+            <View
+                android:layout_width="11sp"
+                android:layout_height="11sp"
+                android:background="@drawable/ic_baseline_circle_24"
+                android:layout_marginVertical="122sp"
+                android:layout_marginHorizontal="35sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Veg"
+                android:textColor="@color/black"
+                android:layout_marginVertical="116dp"
+                android:layout_marginHorizontal="50dp"/>
+
+            <Button
+                android:id="@+id/sub_btn"
+                android:layout_width="130dp"
+
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="225dp"
+                android:layout_marginVertical="125sp"
+
+
+                android:backgroundTint="#7C0039"
+                android:text="Suscribe"
+                android:textColor="#FEA116" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/chefName"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="115dp"
+                android:layout_marginVertical="20dp"
+                android:text="Vijay Singh"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="287dp"
+            android:layout_height="155dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/kitname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginHorizontal="25sp"
+
+                android:layout_marginVertical="60sp"
+                android:layout_marginEnd="175sp"
+                android:layout_marginRight="200sp"
+                android:text="beta kitchen"
+                android:textColor="@color/black">
+
+            </TextView>
+
+            <View
+                android:layout_width="19sp"
+                android:layout_height="19sp"
+                android:layout_marginHorizontal="25sp"
+                android:layout_marginVertical="85sp"
+                android:background="@drawable/star" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50sp"
+                android:layout_marginVertical="85dp"
+                android:text="4.5" />
+
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/top_curve2"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="26dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            app:layout_constraintBottom_toTopOf="@+id/view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/selector"
+                android:contextClickable="true"
+                android:text=" Menu"
+                android:textColor="#7C0039"
+                android:id="@+id/menutv"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Reviews "
+                android:background="@drawable/selector"
+                android:contextClickable="true"
+
+
+                android:id="@+id/reviewtv"
+                android:textColor="#7C0039"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Images"
+                android:id="@+id/imagestv"
+                android:background="@drawable/selector"
+                android:contextClickable="true"
+                android:textColor="#7C0039"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="60dp"
+            android:background="@color/black"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="1dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="-181dp">
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentcont"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="60dp">
+
+
+            </androidx.fragment.app.FragmentContainerView>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</LinearLayout>

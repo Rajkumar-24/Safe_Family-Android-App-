@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "178137003168",
+    "project_id": "homians-78ddb",
+    "storage_bucket": "homians-78ddb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178137003168:android:ddff4e9262b583379f85c5",
+        "android_client_info": {
+          "package_name": "com.example.homians"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178137003168-vkae581eg43uutogs34fb8d9f8vm3stg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homians",
+            "certificate_hash": "cef83b29b29dd357061770d5eed5ba667b122b73"
+          }
+        },
+        {
+          "client_id": "178137003168-htcqvl1s35sifpo74ira79sc92hurgrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtDiDfT3umKz_SP8RhwYaFe-ZWpm2qlp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178137003168-htcqvl1s35sifpo74ira79sc92hurgrc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
